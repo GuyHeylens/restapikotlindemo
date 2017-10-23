@@ -1,4 +1,3 @@
 package be.kotlin.restapikotlin.restapikotlin.entities
 
-class BeerType {
-}
+data class BeerType (val BeerTypeName: String, val BeerJudgeCertification: String)
